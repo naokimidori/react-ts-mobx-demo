@@ -1,0 +1,9 @@
+@import "common.scss";
+
+.test {
+    color: $red;
+    font-size: 35px;
+}
+.test2 {
+    @include fz;
+}
